@@ -4,7 +4,8 @@ const User = require('./models/User');
 const Expense = require('./models/Expense');
 const Income = require('./models/Income');
 
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/expense-tracker';
+//const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/expense-tracker';
+const MONGODB_URI = process.env.MONGODB_URI || 'https://libra-ai-expense-tracker-applicatio.vercel.app/';
 
 async function runVerification() {
   console.log('Starting Expense Tracker Integration Verification...');
