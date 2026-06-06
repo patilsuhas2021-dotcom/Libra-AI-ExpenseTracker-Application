@@ -1,0 +1,81 @@
+/* Design System & Themes Variables */
+
+:root {
+  /* Light Theme Colors (Default) */
+  --bg-primary: #f8fafc;
+  --bg-secondary: #ffffff;
+  --bg-tertiary: #f1f5f9;
+  
+  --border-color: #e2e8f0;
+  --border-focus: #4f46e5;
+  
+  --text-primary: #1e293b;
+  --text-secondary: #64748b;
+  --text-muted: #94a3b8;
+  
+  --accent-primary: #4f46e5; /* Indigo */
+  --accent-primary-hover: #4338ca;
+  --accent-primary-light: rgba(79, 70, 229, 0.1);
+  
+  --accent-success: #059669; /* Emerald Green for Income */
+  --accent-success-hover: #047857;
+  --accent-success-light: rgba(5, 150, 105, 0.1);
+  
+  --accent-danger: #e11d48; /* Rose/Red for Expenses */
+  --accent-danger-hover: #be123c;
+  --accent-danger-light: rgba(225, 29, 72, 0.1);
+  
+  --accent-warning: #d97706; /* Amber */
+  --accent-warning-light: rgba(217, 119, 6, 0.1);
+  
+  /* Layout & Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-glow: 0 0 15px rgba(79, 70, 229, 0.15);
+  
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-full: 9999px;
+  
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.25s ease;
+  
+  --font-family: 'Outfit', 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+[data-theme='dark'] {
+  /* Dark Theme Colors */
+  --bg-primary: #0b0f19; /* Deep Slate/Black */
+  --bg-secondary: #161e2f; /* Dark Card Navy */
+  --bg-tertiary: #1e293b;
+  
+  --border-color: #223049;
+  --border-focus: #6366f1;
+  
+  --text-primary: #f3f4f6;
+  --text-secondary: #9ca3af;
+  --text-muted: #6b7280;
+  
+  --accent-primary: #6366f1; /* Light Violet/Indigo */
+  --accent-primary-hover: #4f46e5;
+  --accent-primary-light: rgba(99, 102, 241, 0.15);
+  
+  --accent-success: #10b981; /* Electric Emerald */
+  --accent-success-hover: #059669;
+  --accent-success-light: rgba(16, 185, 129, 0.15);
+  
+  --accent-danger: #ef4444; /* Neon Rose/Red */
+  --accent-danger-hover: #dc2626;
+  --accent-danger-light: rgba(239, 68, 68, 0.15);
+  
+  --accent-warning: #f59e0b;
+  --accent-warning-light: rgba(245, 158, 11, 0.15);
+  
+  /* Shadows in Dark Mode */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 10px 20px -3px rgba(0, 0, 0, 0.5), 0 4px 8px -2px rgba(0, 0, 0, 0.4);
+  --shadow-glow: 0 0 20px rgba(99, 102, 241, 0.25);
+}
